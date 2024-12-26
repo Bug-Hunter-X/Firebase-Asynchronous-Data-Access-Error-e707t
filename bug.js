@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a property of a document snapshot before the data has fully loaded. For example, if you use a asynchronous function to get data from Firestore, and then immediately try to access a property like doc.data().name, you might encounter this error.
